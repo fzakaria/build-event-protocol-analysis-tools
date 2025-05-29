@@ -1,0 +1,51 @@
+# Bazel build outputs
+bazel-*
+
+# User-specific files
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# Generated files
+*.pb.go
+*.pb.cc
+*.pb.h
+
+# Temporary files
+*.tmp
+*.temp
+*.~*
+
+# Test outputs
+testlogs/
+
+# Coverage outputs
+coverage/
+
+# Build artifacts
+build/
+dist/
+
+# Cache directories
+.cache/
+bazel-cache/
+
+# Python virtual environments
+venv/
+__pycache__/
+
+# Node.js dependencies
+node_modules/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
